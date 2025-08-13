@@ -1,0 +1,5 @@
+#Write a program to check whether a number is even or odd.
+#Write a program to determine whether a number is positive, negative or zero.
+#find greatest among three number
+# find leap year or not
+# grade calculater.
