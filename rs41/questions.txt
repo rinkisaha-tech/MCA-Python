@@ -3,3 +3,27 @@
 #find greatest among three number
 # find leap year or not
 # grade calculater.
+
+Day 2
+
+1. Write a program to print the first N natural numbers using  a for loop.
+2. Write a progeram to calculate the factorial of a number using a while loop.
+3. Demonstrate the use of break, continue, and pass in a separate programs.
+   - Exit a loop early using break.
+   - Skip printing a specific number using continue.
+   - Use pass in a loop body placeholder.
+4. Program to print patterns using nested loops.
+*
+**
+***
+****
+
+5. Reverse Triangle: 
+****
+***
+**
+*
+
+6. Print numbers in steps of 5 between 0 and 50 using range().
+7. Use range() to create countdown from 10 to 1.
+
