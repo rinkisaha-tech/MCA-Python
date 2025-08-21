@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Menu</h1>
+    
+    <div class="menu-grid">
+      <div class="menu-section" data-menu="breakfast">
+        <h2>Breakfast Menu</h2>
+        <div class="menu-item">🥣 Oatmeal</div>
+        <div class="menu-item">🥤 Smoothies</div>
+        <div class="menu-item">🍞 French Toast</div>
+        <div class="menu-item">🥧 Saskatoon Berry Pie</div>
+      </div>
+
+      <div class="menu-section" data-menu="lunch">
+        <h2>Lunch Menu</h2>
+        <div class="menu-item">🌭 Sausage and Mash</div>
+        <div class="menu-item">🥧 Tourtière</div>
+        <div class="menu-item">🌯 Burrito</div>
+        <div class="menu-item">🧁 Butter Tarts</div>
+      </div>
+
+      <div class="menu-section" data-menu="dinner">
+        <h2>Dinner Menu</h2>
+        <div class="menu-item">🥩 Steak</div>
+        <div class="menu-item">🍟 Poutine</div>
+        <div class="menu-item">🦞 Succulent Lobster Sandwich</div>
+        <div class="menu-item">🥩 Bison Steak with Trapper's Mix</div>
+      </div>
+    </div>
+
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🥣 Oatmeal</td>
+            <td>🌭 Sausage and Mash</td>
+            <td>🥩 Steak</td>
+          </tr>
+          <tr>
+            <td>🥤 Smoothies</td>
+            <td>🥧 Tourtière</td>
+            <td>🍟 Poutine</td>
+          </tr>
+          <tr>
+            <td>🍞 French Toast</td>
+            <td>🌯 Burrito</td>
+            <td>🦞 Succulent Lobster Sandwich</td>
+          </tr>
+          <tr>
+            <td>🥧 Saskatoon Berry Pie</td>
+            <td>🧁 Butter Tarts</td>
+            <td>🥩 Bison Steak with Trapper's Mix</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="booking-section">
+      <h3>Ready to Dine? Book Your Table!</h3>
+      <p>Experience our delicious menu in person</p>
+      <button class="booking-btn" onclick="openBooking()">Make Reservation</button>
+      <div id="booking-frame" class="booking-frame hidden">
+        <iframe src="booking _page.html" title="Booking Page"></iframe>
+        <button class="close-btn" onclick="closeBooking()">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
