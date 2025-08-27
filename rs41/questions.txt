@@ -4,6 +4,9 @@
 # find leap year or not
 # grade calculater.
 
+
+
+
 Day 2
 
 1. Write a program to print the first N natural numbers using  a for loop.
@@ -27,3 +30,27 @@ Day 2
 6. Print numbers in steps of 5 between 0 and 50 using range().
 7. Use range() to create countdown from 10 to 1.
 
+
+
+ASST - 4 - 27-8-25
+
+1. Create a list of integers from 1 to 10.
+2. perform: 
+     - append(), insert(), operations.
+     - update and delete specific elements using index and value.
+     - sort and reverse the list.
+     - slice the list (e.g., first 5 elements, every second element).
+     Use list comprehension to generate a list of squares of even numbers
+3. create tuples with:
+     - mixed tuples(e.g., (1,"python",3.14)),
+     - single element tuple: (5),
+     - nested tuples: (1,(2,3),4).
+4. Demonstrate: 
+     - tuple unpacking ,
+     - access by indexing,
+     - methods like count() and index().
+5. create a set from a list with duplicates.
+6. Apply :
+     - add(), remove() methods.
+     - union(), intersection(), difference() with other sets.
+7. use set comprehension to find squares of numbers divisible by 3.
