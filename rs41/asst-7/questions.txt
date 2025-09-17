@@ -1,0 +1,16 @@
+1. Write a python program to:
+    a. Open a text file in write mode and write some data into it.
+    b. Read and print the contents using the read() method.
+    c. Close a file properly and print a message once closed.
+
+2. Open a file in diffenent modes (r, w, a, r+) and print file attribute like: 
+    a. name, mode, closed, readable(), writable().
+
+3. Write a program to:
+    a. Create a file named student txt.
+    b. Add student name and marks.
+    c. Append additional student records without overwriting existing content.
+
+4. Demonstrate: 
+    a. Use of tell() to get the current file pointer.
+    b. Use of seek() to move the pointer and read data from a specific position.
