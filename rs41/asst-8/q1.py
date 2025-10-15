@@ -1,14 +1,14 @@
 # 1) create a file data.txt and copy its contet into backup.txt.
 
-# import shutil
+import shutil
 
-# content = "name = abc, roll = 002, dept= css"
+content = "name = abc, roll = 002, dept= css"
 
-# with open('data.txt', 'w') as file:
-#     file.write(content)
+with open('data.txt', 'w') as file:
+    file.write(content)
 
-# shutil.copyfile('data.txt','backup.txt')
-# print("data is copied from data.txt to backup.txt")
+shutil.copyfile('data.txt','backup.txt')
+print("data is copied from data.txt to backup.txt")
 
 
 
@@ -16,7 +16,7 @@
 
 import os
 
-# os.rename('backup.txt', 'data_backup.txt')
+os.rename('backup.txt', 'data_backup.txt')
 
 # 3) Create a directory called logs, and inside it:
     # a) Create a file log1.txt  b) Write log entrirs into it.
@@ -28,5 +28,6 @@ with open('log1.txt','w') as log_file:
 
 
 # 4) Delete log1.txt and remove the logs directory.
-# os.remove('log1.txt')
-# os.rmdir('logs')
+os.remove('log1.txt')
+os.rmdir('logs')
+
