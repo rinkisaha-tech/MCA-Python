@@ -3,6 +3,10 @@
 <title> PHP Form Submission</title>
 </head>
 <body>
+	<ul>
+		<li><a href="/">home</a> </li>
+		<li><a href="multitable.php">multiplication table</a> </li>
+	</ul>
 	<h1> PHP Form Submission </h1>
 	<form action = "index.php" method="POST">
 		//<input type= "text" name="name" placeholder = "enter your name">
