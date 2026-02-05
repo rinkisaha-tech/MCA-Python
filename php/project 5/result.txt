@@ -1,0 +1,98 @@
+Name: hi
+Roll: 23
+Subject 1: 54
+Subject 2: 77
+Total: 131
+Average: 65.5
+----------------------
+Name: hi
+Roll: 23
+Subject 1: 23
+Subject 2: 56
+Total: 79
+Average: 39.5
+----------------------
+Name: av
+Roll: 78
+Subject 1: 22
+Subject 2: 56
+Total: 78
+Average: 39
+----------------------
+Name: av
+Roll: 78
+Subject 1: 22
+Subject 2: 56
+Total: 78
+Average: 39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
+Name:av
+Roll:78
+Subject 1:22
+Subject 2:56
+Total:78
+Average:39
+----------------------
