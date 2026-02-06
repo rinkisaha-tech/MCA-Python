@@ -12,6 +12,8 @@
     Roll: <input type="text" name="roll" required><br><br>
     Subject 1 Marks: <input type="number" name="sub1" required><br><br>
     Subject 2 Marks: <input type="number" name="sub2" required><br><br>
+    Subject 3 Marks: <input type="number" name="sub3" required><br><br>
+
 
     <button type="submit" name="save">Save Result</button>
 </form>
@@ -25,9 +27,11 @@ if (isset($_POST['save'])) {
     $roll = $_POST['roll'];
     $sub1 = $_POST['sub1'];
     $sub2 = $_POST['sub2'];
+    $sub3 = $_POST['sub3'];
 
-    $total = $sub1 + $sub2;
-    $average = $total / 2;
+
+    $total = $sub1 + $sub2 + $sub3;
+    $average = $total / 3;
 
     $filename = "result.txt";
 
@@ -35,6 +39,7 @@ if (isset($_POST['save'])) {
     $data .= "Roll:$roll\n";
     $data .= "Subject 1:$sub1\n";
     $data .= "Subject 2:$sub2\n";
+    $data .= "Subject 2:$sub3\n";
     $data .= "Total:$total\n";
     $data .= "Average:$average\n";
     $data .= "----------------------\n";
