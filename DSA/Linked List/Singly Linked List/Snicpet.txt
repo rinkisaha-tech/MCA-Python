@@ -1,0 +1,152 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct node{
+	int data;
+	struct node*next;
+};
+
+struct node*head = NULL;
+
+void insert_beg(){
+	struct node*temp;
+	temp = (struct node*)malloc(sizeof(struct node));
+	printf("Enter value: ");
+	scanf("%d",&temp->data);
+	temp->next=head;
+	head =temp;
+}
+
+void insert_end(){
+	struct node*temp,*ptr;
+	temp = (struct node*)malloc(sizeof(struct node));
+	printf("Enter value: ");
+	scanf("%d",&temp->data);
+	temp->next=NULL;
+	
+	if(head == NULL)
+		head = temp;
+	else{
+		ptr = head;
+		while(ptr->next != NULL)
+			ptr = ptr->next;
+		ptr->next = temp;
+	}	
+}
+
+void insert_after(){
+	int val;
+	struct node*temp,*ptr;
+	
+	printf("Insert after: ");
+	scanf("%d",&val);
+	ptr = head;
+	
+	while(ptr!= NULL && ptr->data!=val)
+		ptr = ptr->next;
+	if(ptr==NUll)
+		printf("Element not found..!!");
+	else{
+		temp = (struct node*)malloc(sizeof(struct node));
+		printf("Enter value: ");
+		scanf("%d",&temp->data);
+		
+		temp->next = ptr->next;
+		ptr->next = temp;
+	}
+}
+
+void insert_before(){
+	int val;
+	struct node*temp,*ptr,*prev = NULL;	
+	printf("Insert before: ");
+	scanf("%d",&val);
+	ptr = head;
+	while(ptr!= NULL && ptr->data!=val)
+		prev = ptr;
+		ptr = ptr->next;	
+		if(ptr==NUll)
+			printf("Element not found..!!");
+	else{
+		temp = (struct node*)malloc(sizeof(struct node));
+		printf("Enter value: ");
+		scanf("%d",&temp->data);
+		
+		if(prev == NULL){
+			temp-> next = head;
+			head = temo;
+		}
+		else{
+			temp->next = ptr;
+			ptr->next = temp;
+		}
+	}
+}
+
+void display(){
+	struct node*ptr=head;
+	if(ptr == NULL){
+		printf("List is empty..!!\n");
+	}else{
+		while(ptr!=NULL){
+			printf("%d -> ",ptr->data);
+			ptr = ptr-> next;
+		}
+		printf("NULL..!!\n");
+	}
+}
+
+int main(){
+	int ch;
+	while(){
+		printf("Singly Linked List")
+		printf("1.Insert at beginning: \n");
+		printf("2.Insert at end: \n");		
+		printf("3.Insert after element: \n");
+		printf("4.Insert before element: \n");
+		printf("5.Delete 1st node: \n");
+		printf("6.Delete last node: \n");
+		printf("7.Delete middle element: \n");
+		printf("8.Delete any element: \n");
+		printf("9.Delete all nodes: \n");
+		printf("10.Display: \n");
+		printf("11.Reverse display off all nodes: \n");
+		printf("12.Physically reverse the list: \n");
+		
+		printf("\n Enter choice: ");
+		scanf("%d",&ch);
+		
+		switch(ch){
+			case 1: insert_beg();break;
+			case 2: insert_end();break;
+			case 3: insert_after();break;
+			case 4: insert_before();break;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
